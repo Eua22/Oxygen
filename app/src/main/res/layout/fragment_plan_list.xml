@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ui.fragment.Relief">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="Reliever Used" />
+
+            <ListView
+                android:id="@+id/listview_relief"
+                android:layout_marginTop="5dp"
+                android:layout_height="100pt"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="Medications" />
+
+            <ListView
+                android:id="@+id/listview_medicen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+
+</FrameLayout>

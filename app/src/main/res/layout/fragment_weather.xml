@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ui.fragment.Weather">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+        <TableRow android:background="@color/colorPrimary" android:padding="5dp">
+            <TextView
+                android:id="@+id/ty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Καιρική κατάσταση"
+                />
+
+            <TextView
+                android:id="@+id/ty1"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Τιμές"
+                />
+
+        </TableRow>
+        <TableRow android:background="@color/colorAccent" android:padding="5dp">
+            <TextView
+                android:id="@+id/windLa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/windd"
+                android:text="Κατ. Ανέμου"
+                 />
+
+            <TextView
+                android:id="@+id/txtDeg"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow android:background="@color/colorAccent" android:padding="5dp">
+            <TextView
+                android:id="@+id/windLab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/wind"
+                android:text="Άνεμος"
+                />
+
+            <TextView
+                android:id="@+id/txtWind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow android:background="@color/colorAccent" android:padding="5dp">
+            <TextView
+                android:id="@+id/humLab"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/humidity"
+                android:text="Υγρασία"
+                 />
+
+            <TextView
+                android:id="@+id/txtHum"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow android:background="@color/colorAccent" android:padding="5dp">
+            <TextView
+                android:id="@+id/tempLa"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Θερμοκρασία"
+                />
+            <TextView
+                android:id="@+id/txttemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/temperature"
+                />
+        </TableRow>
+        <TableRow android:background="@color/colorAccent" android:padding="5dp">
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/weathericon"/>
+
+            <ImageView
+                android:id="@+id/condIcon"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+        <TableRow android:background="@color/colorAccent" android:padding="5dp">
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtCord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

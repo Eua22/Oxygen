@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Oxygen</string>
+    <string name="tag">Welcome to Oxygen application</string>
+    <string name="logo">Your personal information</string>
+    <string name="register">registration</string>
+    <string name="your_name">Name</string>
+    <string name="your_surnamename">Last name</string>
+    <string name="your_birthday">Birthdate</string>
+    <string name="e_mail">Email</string>
+    <string name="your_mobile">Mobile Phone</string>
+    <string name="your_sex">Sex</string>
+    <string name="your_height">Height</string>
+    <string name="your_weight">Weight</string>
+    <string name="your_city">City</string>
+    <string-array name="sex">
+        <item>Choose sex</item>
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string name="bt_show">Demonstration</string>
+
+    <string-array name="inhalers">
+        <item>Choose inhalers</item>
+        <item>Aerolizer</item>
+        <item>Autohaler</item>
+        <item>Diskus</item>
+        <item>Ellipta</item>
+        <item>Flexhaler</item>
+        <item>Handihaler</item>
+        <item>MDI</item>
+        <item>Respimat</item>
+        <item>Spacer</item>
+        <item>Turbuhaler</item>
+        <item>Twisthaler</item>
+    </string-array>
+
+    <string-array name="controllers">
+        <item>Choose controllers</item>
+        <item>Accolate(Zafirlukast)</item>
+        <item>Advair Diskus(Fluticasone and Salmeterol)</item>
+        <item>Advair HFA (Fluticasone and Salmeterol)</item>
+        <item>Aerobid (Flunisolide)</item>
+        <item>Alvesco (Ciclesonide)</item>
+        <item>Asmanex Twisthaler (Mometasone)</item>
+        <item>Combivent (Iparatropium and Albuterol)</item>
+        <item>Dulera (Mometasone and Fumarate)</item>
+        <item>DuoNeb (Ipratropium and Albuterol)</item>
+        <item>Elixophyllin (Theophylline)</item>
+        <item>Flovent Diskus (Fluticasone Proprionate)</item>
+        <item>Flovent HFA (Fluticasone Proprionate)</item>
+        <item>Foradil Aerolizer (Formoterol)</item>
+        <item>Prednisone (Prednisone)</item>
+        <item>Pulmicort Flexhaler (Budesonide)</item>
+        <item>Pulmicort Respules (Budesonide)</item>
+        <item>QVAR (Beclomethasone)</item>
+        <item>Serevent Diskus (Salmeterol)</item>
+        <item>Singulair (Montelukast)</item>
+        <item>Symbicort (Budesonide and Formoterol)</item>
+        <item>Singulair (Montelukast)</item>
+        <item>Symbicort (Budesonide and Formoterol)</item>
+        <item>Theo-24 (Theophylline)</item>
+        <item>Uniphyl (Theophylline)</item>
+        <item>Zyflo (Zileuton)</item>
+        <item>Zyflo CR (Zileuton)</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="relief">
+        <item>Choose reliever</item>
+        <item>Accuneb(Albuterol)</item>
+        <item>Albuterol(Albuterol)</item>
+        <item>Albuterol inhaled(Albuterol)</item>
+        <item>Alupent(Metaproterenol)</item>
+        <item>Brethine(Terbutaline sulfate)</item>
+        <item>Maxair Autohaler(Pirbuterol)</item>
+        <item>Proair HFA (Albuterol)</item>
+        <item>Proventil HFA (Albuterol)</item>
+        <item>Ventolin HFA (Albuterol)</item>
+        <item>VoSpire ER (Albuterol)</item>
+        <item>Xopenex (Levalbuterol)</item>
+        <item>Xopenex HFA (Levalbuterol)</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="warning_cold">Predicted low temperature can worsen your health</string>
+
+    <string name="warning_humidity">Provided high humidity in combination with high temperature can worsen your health</string>
+
+    <string name="warning_wind">Predicted Strong winds can worsen your health</string>
+
+    <string name="medice_dose">How many times a day do you take the medicine?</string>
+
+    <string name="medicen_time">How many mg each dose</string>
+
+    <string name="privacy_header_1">Its content is formatted according to:</string>
+
+    <string name="privacy_1">Data and results of studies with corresponding documentation, published in scientific journals (NCBC - National Library of Medicine National Institutes of Health)
+Information from websites of reputable health and nutrition organizations (WHO - World Health Organization, EUFIC - European Food Information Council etc.)
+Formal health recommendations and claims (EFSA - European Food Safety Authority, EMA - European Medicines Agency)</string>
+
+    <string name="privacy_header_2">Privacy</string>
+
+    <string name="privacy_2">This application does not use the personal data of each user</string>
+
+    <string name="add">Add</string>
+
+    <string name="update">Update</string>
+
+    <string name="pfv">Peak Flow Value</string>
+
+    <string name="medication">Add Medication</string>
+
+    <string name="refieler">Add Reliever</string>
+
+    <string name="demostration">Inhaler Use Demonstration</string>
+
+</resources>

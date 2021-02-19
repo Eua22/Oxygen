@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:text="@string/medication" />
+
+        <Spinner
+            android:id="@+id/spinnerMedication"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/refieler" />
+
+        <Spinner
+            android:id="@+id/spinnerReief"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            />
+        <Button
+            android:id="@+id/btn_register_relief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_custom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:text="@string/register"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/demostration" />
+
+        <Spinner
+            android:id="@+id/spinnerInhaler"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="194dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/autohaler"
+             />
+
+        <Button
+            android:id="@+id/bt_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_custom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/white"
+            android:text="@string/bt_show"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
